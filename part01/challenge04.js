@@ -2,7 +2,7 @@ function calculateTip(value) {
     let tip = 0;
     if (50 <= value <= 300) {
         tip = 0.15;
-    } else if (value > 300) {
+    } else {
         tip = 0.2;
     }
 
